@@ -40,13 +40,15 @@ body{
   text-decoration: underline;
 }
 
-img {
+#imagewrap img
+ {
   display: block;
   margin: 0 auto;
-  padding:190px 0 0 0px;
-
-  ;
+  padding:90px 0 0 0px;
+  margin-top: 70px;
  }
+
+
 
 .box{
   margin: 10px auto;
@@ -96,4 +98,44 @@ img {
 .final{
 	font-size: 12px
 
+}
+
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.leftSide{
+float: left;
+}
+
+.rightSide{
+float: right;
+padding-right: 5px;
+}
+
+
+#topnav{
+height: 20px;
+padding-top: 5px;
+}
+
+li a{
+
+    display: inline-block;
+    padding-left: 15px;
+    color: #000;
+    opacity: 0.75;
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+  }
+
+ .Squaggle{
+background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+background-position: -119px -42px;
+height: 30px;
+width: 30px;
 }
